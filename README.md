@@ -40,6 +40,7 @@ This section just contains a quick overview. Consult the generated
 Comprehensive documentation will have to wait till the new documentation generation tool is ready. A contribution to 
 port the documentation to the RST format like `rules_go` has would be very welcome !
 
+[JVM Rules](kotlin/jvm.md)
 
 ## WORKSPACE
 In the project's `WORKSPACE`, declare the external repository and initialize the toolchains, like
