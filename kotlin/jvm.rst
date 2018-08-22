@@ -15,6 +15,7 @@ Common Attributes
 | The list of source files that are processed to create the target.                                                    |
 |                                                                                                                      |
 | The following file types are supported:                                                                              |
+|                                                                                                                      |
 | **kt**                                                                                                               |
 |   A single Kotlin source file must be provided.                                                                      |
 | **java**                                                                                                             |
