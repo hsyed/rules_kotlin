@@ -16,12 +16,12 @@ Common Attributes
 |                                                                                                                      |
 | The following file types are supported:                                                                              |
 |                                                                                                                      |
-| **kt**                                                                                                               |
+| **.kt**                                                                                                              |
 |   A single Kotlin source file must be provided.                                                                      |
-| **java**                                                                                                             |
+| **.java**                                                                                                            |
 |   Java source files. Mixed-Mode compilation is supported which enables Kotlin and Java to co-reference in a single   |
 |   compilation unit.                                                                                                  |
-| **srcjar**                                                                                                           |
+| **.srcjar**                                                                                                          |
 |   Files with the extension `.srcjar` enable code generation patterns. The sources contained in this jar are expanded |
 |   during compilation and added to the source list. Such sources are also included in the `-sources.jar` output       |
 +------------------------------------------------------+-----------------------+---------------------------------------+
