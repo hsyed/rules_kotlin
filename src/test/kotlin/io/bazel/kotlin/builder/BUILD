@@ -79,3 +79,22 @@ test_suite(
     ],
     visibility = ["//visibility:public"],
 )
+
+load("//tools/jupiter:jupiter.bzl", "jupiter_test")
+
+jupiter_test(
+    name = "JupiterTest",
+    srcs = [
+        ":JupiterTest.java",
+    ],
+
+    select_classes = ["io.bazel.kotlin.builder.JupiterTest"],
+)
+
+jupiter_test(
+    name = "KotlinTest",
+    srcs = [
+        ":KotlinTest.kt",
+    ],
+    select_classes = ["io.bazel.kotlin.builder.KotlinTest"],
+)

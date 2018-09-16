@@ -1,0 +1,20 @@
+= Kotlin Rules Tools
+
+This package contains tools used in the kotlin repo. 
+
+NOTE: These should currently be considered internal. Please create an issue if you find the tools useful and depend
+on them.
+
+== Jupiter
+
+==== Overview
+
+link:./jupiter/jupiter.bzl[] provides the macro `jupiter_test` for idiomatic usage of Junit5 tests in bazel.
+
+==== Dependencies
+
+The following jupiter dependencies are provided when using the macro.
+
+include::../third_party/dependencies.yaml[tag="jupiter"]
+
+For Kotlin tests `kotlin-test` and `kotlin-test-junit5` are made available implicitly.
