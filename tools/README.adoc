@@ -9,7 +9,7 @@ on them.
 
 ==== Overview
 
-link:./jupiter/jupiter.bzl[] provides the macro `jupiter_test` for idiomatic usage of Junit5 tests in bazel.
+link:jupiter/jupiter.bzl[] provides the macro `jupiter_test` for idiomatic usage of Junit5 tests in bazel.
 
 ==== Dependencies
 
